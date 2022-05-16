@@ -1,0 +1,24 @@
+{
+  "name": "vue-cli-demo",
+  "version": "1.0.0",
+  "description": "Practice to make a vue-cli",
+  "main": "index.js",
+  "bin": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-la-shen-ding/vue-cli-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-la-shen-ding/vue-cli-demo/issues"
+  },
+  "homepage": "https://github.com/a-la-shen-ding/vue-cli-demo#readme",
+  "devDependencies": {
+    "minimist": "^1.2.6",
+    "webpack": "^5.72.1"
+  }
+}
