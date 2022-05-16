@@ -55,7 +55,7 @@ export async function dev() {
             code: readFileSync(filePath, 'utf-8')
           }));
         break;
-      case '.jsx':
+      default:
         res.set('Content-Type', 'application/javascript');
         res.send(transformJSX({
             appRoot: join(__dirname, '../target'),
@@ -63,8 +63,6 @@ export async function dev() {
             code: readFileSync(filePath, 'utf-8')
           }).code);
         break;
-      default:
-        res.send(readFileSync(filePath));
     }
   });
 
